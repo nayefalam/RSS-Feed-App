@@ -1,0 +1,11 @@
+Documentation of the code:
+1. Utilized feedparser library to extract data and parse the website and store it in parse_rss_feed which will be executed in the main function
+2. Implemented SqlAlchemy to interact and local server using PostgreSQL to store the data (make sure when you execute the file you set up DATABASE_URL in database.py
+3. Celery for task queuing and management - Set up a very simple code for task management using Celery for queuing and updating the tasks in celeryconfig.py and tasks.py
+4. Implemented two algorithms SpaCy and TextBlob for classification:
+ - used SpaCy for categorization of the RSS feed
+ - used TextBlob for Sentimental analysis which returns a +1 or -1 value on basis of sentiment (additional thing i have added)
+5. I could not setup logging into the files however I have coded the utils.py but i could not get enough time to implement it in each of the files.
+
+That is all I hope you like my work.
+Wishing the best response and looking forward with all enthusiasm to be working with 10Times!!
